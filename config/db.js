@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 
 
 const connectDB = async () => {
-  await mongoose.connect( "mongodb+srv://college-project07:React@07@cluster0.lmwyh.mongodb.net/React_App?retryWrites=true&w=majority" , {
+  await mongoose.connect( "mongodb+srv://ace:ace123@cluster0.5wspwud.mongodb.net/?retryWrites=true&w=majority" , {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
